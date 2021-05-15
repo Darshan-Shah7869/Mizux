@@ -1,0 +1,65 @@
+.navbar {
+  background-color: red;
+  border-bottom: 3px solid #3292a6;
+}
+
+.navbar img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.navbar .nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+body {
+  margin-top: 75px;
+}
+
+header {
+  padding-top: 2rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 146, 166, 0.8))), url("../img/mountains.jpg");
+  background-image: linear-gradient(rgba(50, 146, 166, 0.8)), url("../img/mountains.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+header img {
+  height: 80%;
+  width: 80%;
+}
+
+.section-about p, .author-text p {
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 4rem;
+}
+
+.section-author img {
+  margin-top: -3rem;
+}
+
+.section-author .card {
+  padding-bottom: 2rem;
+}
+
+.section-author .card i {
+  color: #3292a6;
+}
+
+.section-author .card:hover {
+  background-color: #3292a6;
+  color: #ffffff;
+}
+
+.section-author .card:hover i {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .mb-responsive {
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
